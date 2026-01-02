@@ -1,0 +1,21 @@
+# data
+data/
+*.csv
+
+# outputs
+output/
+reports/
+
+# model checkpoints
+*.bin
+*.pt
+*.safetensors
+
+# python
+__pycache__/
+*.pyc
+.env
+
+# OS
+.DS_Store
+
