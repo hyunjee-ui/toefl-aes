@@ -33,6 +33,12 @@ This project aims to build an Automated Essay Scoring (AES) system for TOEFL-sty
 
 We visualize the input representation of essays at different stages.
 
-- Fig.1 shows raw essay input examples.
-- Fig.2 illustrates POS-tag combined input representations.
-- Fig.3 presents BERT input representation and self-attention structure using BertViz.
+**Fig.1. Raw essay input example**  
+![Fig.1 Input Example](figs/fig1_input_example.jpeg)
+
+**Fig.2. POS-tag combined input representation**  
+![Fig.2 POS-tagged Input](figs/fig2_pos_tagged_input.jpeg)
+
+**Fig.3. BERT input representation with self-attention (BertViz)**  
+![Fig.3 BERT Input Representation](figs/fig3_bertviz_input.jpeg)
+
