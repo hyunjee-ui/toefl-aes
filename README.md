@@ -12,6 +12,7 @@ This project aims to build an Automated Essay Scoring (AES) system for TOEFL-sty
 ## 4. Dataset
 - TOEFL11
 - Essays are scored in a continuous scale
+- Each essay is annotated with a proficiency level (low, medium, high)
 
 ## 5. Training Details
 - Loss Function: Mean Squared Error (MSE)
@@ -23,6 +24,7 @@ This project aims to build an Automated Essay Scoring (AES) system for TOEFL-sty
 - [X] Environment setup
 - [ ] Data preprocessing
 - [ ] BERT baseline implementation
+- [X] Dataset analysis and visualization
 
 ## 7. Future Work
 - Add attention mechanism
@@ -42,3 +44,20 @@ We visualize the input representation of essays at different stages.
 **Fig.3. BERT input representation with self-attention (BertViz)**  
 ![Fig.3 BERT Input Representation](figs/fig3_bertviz_input.jpeg)
 
+## Dataset Analysis
+
+To better understand the characteristics of the TOEFL11 dataset, we analyze
+the distribution of essay scores, lengths, and country-level score patterns.
+
+**Fig.4. Distribution of essay score levels (low, medium, high)**  
+![Fig.4 Score Distribution](figs/fig4_score_distribution.png)
+
+**Fig.5. Distribution of essay word counts**  
+Essays with fewer than 50 words are excluded to reduce noise.  
+![Fig.5 Word Count Distribution](figs/fig5_word_count.png)
+
+**Fig.6. Word count comparison across score levels**  
+![Fig.6 Word Count by Score Level](figs/fig6_word_count_by_score.png)
+
+**Fig.7. Distribution of score levels by country**  
+![Fig.7 Score Distribution by Coun]()
